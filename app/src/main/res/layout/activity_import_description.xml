@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/layout_title_bar" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="12dp"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:text="1.导入Excel格式必须为xls"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="12dp"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:text="2.列最少3项，即题目类型-题目内容-正确答案，这3项必须存在，最多8项，可到选项E"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="12dp"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:text="3.列的标题必须按照指定顺序，否则会导致识别混乱,即题目类型-题目内容-正确答案-选项A-选项B-选项C-选项D-选项E"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="12dp"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:text="4.题目类型暂时只支持判断题、多选题、单选题，切记不可输错"/>
+</LinearLayout>
